@@ -1,0 +1,16 @@
+server:
+  port: 9090
+astra:
+  api:
+    application-token: AstraCS:ecoUWLQfzHSKZeBefZmNUNJx:02d4d31e91754599b8cc3ee15b23c36f212cccad7c5da892e276d4af71057435
+    database-id: 381714a7-8b18-4654-9d92-e67128c363b8
+    database-region: us-east1
+    grpc:
+      enabled: true
+  cql:
+    enabled: false
+    download-scb:
+      enabled: true
+    driver-config:
+      basic:
+        session-keyspace: forourdemo
